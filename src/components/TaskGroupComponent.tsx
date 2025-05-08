@@ -1,4 +1,4 @@
-import {BAR_HEIGHT} from "../../../angular/src/constants"
+import {BAR_HEIGHT} from "../constants"
 
 export default function TaskGroupComponent({ctx, removeTask}) {
 

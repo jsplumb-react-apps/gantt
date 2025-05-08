@@ -4,8 +4,8 @@ import {ONE_DAY_IN_MILLISECONDS, STEP_WIDTH, TYPE_TASK_GROUP} from "./constants"
 
 import {Gantt, ParsedTask} from "./defs"
 import {_generateDialogTemplates} from "./dialogs"
-import {TYPE_MILESTONE, TYPE_TASK} from "../../angular/src/constants"
-import {DIALOG_NEW_MILESTONE, DIALOG_NEW_TASK, DIALOG_NEW_TASK_GROUP} from "../../angular/src/dialogs"
+import {TYPE_MILESTONE, TYPE_TASK} from "./constants"
+import {DIALOG_NEW_MILESTONE, DIALOG_NEW_TASK, DIALOG_NEW_TASK_GROUP} from "./dialogs"
 
 
 export const NARROW_DAY_FORMAT = new Intl.DateTimeFormat("default", { weekday: "narrow" })

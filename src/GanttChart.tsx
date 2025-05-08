@@ -30,7 +30,7 @@ import {subtaskDataset} from "./data-generator"
 import {GanttContext} from "./GanttProvider"
 import {generateView} from "./view"
 import { createRenderOptions } from "./render-options"
-import {millisecondsToDays, pixelsToMilliseconds} from "../../angular/src/util"
+import {millisecondsToDays, pixelsToMilliseconds} from "./util"
 
 export default function GanttChart(props:GanttOptions) {
 
